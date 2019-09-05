@@ -1185,4 +1185,6 @@ ifneq ($(LUCID_BUILD),)
 $(eval include device/lucid/sepolicy/common/sepolicy.mk)
 endif
 
+include vendor/lucid/build/core/config.mk
+
 include $(BUILD_SYSTEM)/dumpvar.mk
